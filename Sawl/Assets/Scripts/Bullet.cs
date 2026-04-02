@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour
     public GameObject textOBJ;
     void Update()
     {
-        transform.position += transform.forward * 10f * Time.deltaTime;
+        transform.position += transform.forward * 25f * Time.deltaTime;
     }
     private void OnCollisionEnter(Collision collision)
     {
