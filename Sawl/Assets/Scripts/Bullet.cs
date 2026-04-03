@@ -4,10 +4,9 @@ public class Bullet : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject textOBJ;
-    // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(0, 0, 0.2f);
+        transform.position += transform.forward * 25f * Time.deltaTime;
     }
     private void OnCollisionEnter(Collision collision)
     {
