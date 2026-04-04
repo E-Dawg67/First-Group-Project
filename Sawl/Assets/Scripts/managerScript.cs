@@ -9,10 +9,7 @@ public class managerScript : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Confined;
-        /*for (int i = 0; i < 5; i++)
-        {
-            Instantiate(Enemy, new Vector3(Random.value * 40 - 20, .5f, Random.value * 10 + 13), Enemy.transform.rotation);
-        }*/
+
     }
     
 }
