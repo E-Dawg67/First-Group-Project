@@ -10,7 +10,7 @@ public class Movement : MonoBehaviour
     public GameObject bullet, colided;
     public Transform spawnPoint;
     private Rigidbody rb;
-    private bool jump = true, moveable = true;
+    private bool jump = true;
     int ammo = 7;
     void Start()
     {

@@ -19,7 +19,7 @@ public class managerScript : MonoBehaviour
         enemycount = waveSize[wave - 1];
         for (int i = 0; i < waveSize[wave - 1];  i++)
         {
-            Instantiate(Enemy, spawns[i].transform.position, Quaternion.identity);
+            Instantiate(Enemy, spawns[i].transform.position, Enemy.transform.rotation);
         }
     }
     public void eliminateEnemy()

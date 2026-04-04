@@ -18,7 +18,7 @@ public class EnemyShooter : MonoBehaviour
         {
             playerTarget = playerObject.transform;
         }
-        InvokeRepeating("Shoot", delay, fireRate);
+        Invoke("Shoot", delay);
     }
 
     void Update()
@@ -38,5 +38,6 @@ public class EnemyShooter : MonoBehaviour
             GameObject newBullet = Instantiate(bullet, firePoint.position, firePoint.rotation);
             newBullet.transform.LookAt(playerTarget.position);
         }
+        Invoke("Shoot", fireRate);
     }
 }
