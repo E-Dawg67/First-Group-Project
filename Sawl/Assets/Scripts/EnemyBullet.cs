@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class EnemyBullet : MonoBehaviour
 {
+    [SerializeField] private int damage;
     Rigidbody rb;
     void Start()
     {
@@ -13,8 +14,15 @@ public class EnemyBullet : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            //Replace with game over scene
+            Health playerHealth = collision.GetComponent<Health>();
+            
+            if(playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage);
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                //Replace with game over scene
+            }
+
         }
         Destroy(gameObject);
     }
