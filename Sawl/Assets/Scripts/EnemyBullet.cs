@@ -13,7 +13,8 @@ public class EnemyBullet : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("SAWL - Game");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //Replace with game over scene
         }
         Destroy(gameObject);
     }

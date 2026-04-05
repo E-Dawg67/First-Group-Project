@@ -3,16 +3,15 @@ using UnityEngine;
 public class EnemyShooter : MonoBehaviour
 {
     public Transform playerTarget;
-    public string playerTag = "Player";
 
     public GameObject bullet;
-    public Transform firePoint;
+    public Transform firePoint, enemy;
     public float fireRate = 2f;
     public float delay = 1f;
 
     void Start()
     {
-        GameObject playerObject = GameObject.FindGameObjectWithTag(playerTag);
+        GameObject playerObject = GameObject.Find("Sawl_Child");
 
         if (playerObject != null)
         {
@@ -28,6 +27,7 @@ public class EnemyShooter : MonoBehaviour
             Vector3 targetPosition = playerTarget.position;
             targetPosition.y = transform.position.y;
             transform.LookAt(targetPosition);
+            transform.Rotate(0, 90f, 0);
         }
     }
 
