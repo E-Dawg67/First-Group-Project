@@ -9,7 +9,6 @@ public class EnemyShooter : MonoBehaviour
     public Transform firePoint, enemy;
     public float fireRate = 2f;
     public float delay = 1f;
-
     private NavMeshAgent agent;
     void Start()
     {
@@ -22,7 +21,7 @@ public class EnemyShooter : MonoBehaviour
         Invoke("Shoot", delay);
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (playerTarget != null)
         {
@@ -30,9 +29,8 @@ public class EnemyShooter : MonoBehaviour
             targetPosition.y = transform.position.y;
             transform.LookAt(targetPosition);
             transform.Rotate(0, 90f, 0);
-            Vector3 pos = transform.position;
+
             agent.SetDestination(targetPosition);
-            this.transform.position = new Vector3(this.transform.position.x, pos.y, this.transform.position.z);
         }
     }
 
