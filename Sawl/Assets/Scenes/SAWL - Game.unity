@@ -355,6 +355,7 @@ GameObject:
   - component: {fileID: 124898904}
   - component: {fileID: 124898903}
   - component: {fileID: 124898902}
+  - component: {fileID: 124898906}
   m_Layer: 0
   m_Name: Stayaway (11)
   m_TagString: Untagged
@@ -455,6 +456,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 245151935}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &124898906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124898901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 0.83, y: 0.22, z: 1.12}
+  m_Center: {x: 0, y: 0.5, z: 0.04}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &127377108
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,6 +1016,7 @@ GameObject:
   - component: {fileID: 411129812}
   - component: {fileID: 411129811}
   - component: {fileID: 411129810}
+  - component: {fileID: 411129814}
   m_Layer: 0
   m_Name: Stayaway (9)
   m_TagString: Untagged
@@ -1098,6 +1117,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 245151935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &411129814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411129809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 0.83, y: 0.22, z: 1.12}
+  m_Center: {x: 0, y: 0.5, z: 0.04}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &424497805
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,6 +1146,7 @@ GameObject:
   - component: {fileID: 424497809}
   - component: {fileID: 424497808}
   - component: {fileID: 424497807}
+  - component: {fileID: 424497810}
   m_Layer: 0
   m_Name: Stayaway (12)
   m_TagString: Untagged
@@ -1210,6 +1247,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424497805}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &424497810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424497805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 0.83, y: 0.22, z: 1.12}
+  m_Center: {x: 0, y: 0.5, z: 0.04}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &441482451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,11 +1626,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c91e2e2ce5a3734e8872597fb3bc65d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.32
+      value: 2.58
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c91e2e2ce5a3734e8872597fb3bc65d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.79
+      value: -12.45
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c91e2e2ce5a3734e8872597fb3bc65d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2198,6 +2252,7 @@ GameObject:
   - component: {fileID: 910110292}
   - component: {fileID: 910110291}
   - component: {fileID: 910110290}
+  - component: {fileID: 910110293}
   m_Layer: 0
   m_Name: Stayaway (16)
   m_TagString: Untagged
@@ -2298,6 +2353,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910110288}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &910110293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910110288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 0.83, y: 0.22, z: 1.12}
+  m_Center: {x: 0, y: 0.5, z: 0.04}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &938015070 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2d464c45c8130fa469c99acfa8762496, type: 3}
@@ -2330,6 +2402,38 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &938015073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938015070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshSurface
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.6666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 45386d91a19fb93408d0effc613b35b3, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &944260878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2682,7 +2786,75 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2d464c45c8130fa469c99acfa8762496, type: 3}
       insertIndex: -1
       addedObject: {fileID: 938015072}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2d464c45c8130fa469c99acfa8762496, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 938015073}
+    - targetCorrespondingSourceObject: {fileID: -4720168162678092576, guid: 2d464c45c8130fa469c99acfa8762496, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1000000679}
+    - targetCorrespondingSourceObject: {fileID: 3179864497565920659, guid: 2d464c45c8130fa469c99acfa8762496, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1000000678}
   m_SourcePrefab: {fileID: 100100000, guid: 2d464c45c8130fa469c99acfa8762496, type: 3}
+--- !u!1 &1000000676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3179864497565920659, guid: 2d464c45c8130fa469c99acfa8762496, type: 3}
+  m_PrefabInstance: {fileID: 1000000675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1000000677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4720168162678092576, guid: 2d464c45c8130fa469c99acfa8762496, type: 3}
+  m_PrefabInstance: {fileID: 1000000675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1000000678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000000676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshSurface
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 1
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.6666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 81ff696c0b1564a4c930342efc929ab7, type: 2}
+  m_BuildHeightMesh: 0
+--- !u!114 &1000000679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000000677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 1, y: 1.31, z: 0.05}
+  m_Center: {x: 0, y: 0, z: 0.18}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1068498100
 GameObject:
   m_ObjectHideFlags: 0
@@ -2919,6 +3091,7 @@ GameObject:
   - component: {fileID: 1159277369}
   - component: {fileID: 1159277368}
   - component: {fileID: 1159277367}
+  - component: {fileID: 1159277370}
   m_Layer: 0
   m_Name: Stayaway (18)
   m_TagString: Untagged
@@ -3019,6 +3192,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1159277365}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1159277370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159277365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 0.83, y: 0.22, z: 1.12}
+  m_Center: {x: 0, y: 0.5, z: 0.04}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1159820318
 GameObject:
   m_ObjectHideFlags: 0
@@ -3205,6 +3395,7 @@ GameObject:
   - component: {fileID: 1456450478}
   - component: {fileID: 1456450477}
   - component: {fileID: 1456450476}
+  - component: {fileID: 1456450479}
   m_Layer: 0
   m_Name: Stayaway (13)
   m_TagString: Untagged
@@ -3305,6 +3496,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456450474}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1456450479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456450474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 0.83, y: 0.22, z: 1.12}
+  m_Center: {x: 0, y: 0.5, z: 0.04}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1456742551
 GameObject:
   m_ObjectHideFlags: 0
@@ -3317,6 +3525,7 @@ GameObject:
   - component: {fileID: 1456742554}
   - component: {fileID: 1456742553}
   - component: {fileID: 1456742552}
+  - component: {fileID: 1456742556}
   m_Layer: 0
   m_Name: Stayaway (3)
   m_TagString: Untagged
@@ -3417,6 +3626,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 245151935}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1456742556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456742551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 0.83, y: 0.22, z: 1.12}
+  m_Center: {x: 0, y: 0.5, z: 0.04}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1470152085
 GameObject:
   m_ObjectHideFlags: 0
@@ -3715,6 +3941,7 @@ GameObject:
   - component: {fileID: 1520258074}
   - component: {fileID: 1520258073}
   - component: {fileID: 1520258072}
+  - component: {fileID: 1520258075}
   m_Layer: 0
   m_Name: Stayaway (17)
   m_TagString: Untagged
@@ -3815,6 +4042,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520258070}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1520258075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520258070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 0.83, y: 0.22, z: 1.12}
+  m_Center: {x: 0, y: 0.5, z: 0.04}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1553390590
 GameObject:
   m_ObjectHideFlags: 0
@@ -4001,6 +4245,7 @@ GameObject:
   - component: {fileID: 1609750197}
   - component: {fileID: 1609750196}
   - component: {fileID: 1609750195}
+  - component: {fileID: 1609750199}
   m_Layer: 0
   m_Name: Stayaway (10)
   m_TagString: Untagged
@@ -4101,6 +4346,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 245151935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1609750199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609750194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 0.83, y: 0.22, z: 1.12}
+  m_Center: {x: 0, y: 0.5, z: 0.04}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1641816401
 GameObject:
   m_ObjectHideFlags: 0
@@ -4175,6 +4437,7 @@ GameObject:
   - component: {fileID: 1711453828}
   - component: {fileID: 1711453827}
   - component: {fileID: 1711453826}
+  - component: {fileID: 1711453829}
   m_Layer: 0
   m_Name: Stayaway (14)
   m_TagString: Untagged
@@ -4275,6 +4538,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711453824}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1711453829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711453824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 0.95, y: 0.22, z: 0.97}
+  m_Center: {x: -0.02, y: 0.5, z: 0.04}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1741461741
 GameObject:
   m_ObjectHideFlags: 0
@@ -4430,6 +4710,7 @@ GameObject:
   - component: {fileID: 1791916147}
   - component: {fileID: 1791916146}
   - component: {fileID: 1791916145}
+  - component: {fileID: 1791916148}
   m_Layer: 0
   m_Name: Stayaway (15)
   m_TagString: Untagged
@@ -4530,6 +4811,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791916143}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1791916148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791916143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 0.83, y: 0.22, z: 1.12}
+  m_Center: {x: 0, y: 0.5, z: 0.04}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &1912984837
 GameObject:
   m_ObjectHideFlags: 0
@@ -4542,6 +4840,7 @@ GameObject:
   - component: {fileID: 1912984841}
   - component: {fileID: 1912984840}
   - component: {fileID: 1912984839}
+  - component: {fileID: 1912984842}
   m_Layer: 0
   m_Name: Stayaway (19)
   m_TagString: Untagged
@@ -4642,6 +4941,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912984837}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1912984842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912984837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshModifierVolume
+  m_SerializedVersion: 0
+  m_Size: {x: 0.83, y: 0.22, z: 1.12}
+  m_Center: {x: 0, y: 0.5, z: 0.04}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &2042418420
 GameObject:
   m_ObjectHideFlags: 0

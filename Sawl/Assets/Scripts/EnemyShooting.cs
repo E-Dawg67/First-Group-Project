@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyShooter : MonoBehaviour
 {
@@ -9,10 +10,11 @@ public class EnemyShooter : MonoBehaviour
     public float fireRate = 2f;
     public float delay = 1f;
 
+    private NavMeshAgent agent;
     void Start()
     {
         GameObject playerObject = GameObject.Find("Sawl_Child");
-
+        agent = this.gameObject.GetComponent<NavMeshAgent>();
         if (playerObject != null)
         {
             playerTarget = playerObject.transform;
@@ -28,6 +30,9 @@ public class EnemyShooter : MonoBehaviour
             targetPosition.y = transform.position.y;
             transform.LookAt(targetPosition);
             transform.Rotate(0, 90f, 0);
+            Vector3 pos = transform.position;
+            agent.SetDestination(targetPosition);
+            this.transform.position = new Vector3(this.transform.position.x, pos.y, this.transform.position.z);
         }
     }
 
