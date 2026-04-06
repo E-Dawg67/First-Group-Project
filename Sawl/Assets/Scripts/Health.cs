@@ -27,7 +27,7 @@ public class Health : MonoBehaviour
         }
         if(currentHealth <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            GameObject.Find("GameManager").GetComponent<managerScript>().restartScreen();
         }
     }
 

@@ -1,3 +1,4 @@
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -10,6 +11,7 @@ public class Movement : MonoBehaviour
     public GameObject bullet, colided;
     public Transform spawnPoint;
     private Rigidbody rb;
+    public TMP_Text ammoT;
     private bool jump = true;
     int ammo = 7;
     void Start()
@@ -29,8 +31,16 @@ public class Movement : MonoBehaviour
         if(Input.GetMouseButtonDown(0) && ammo > 0)
         {
             GameObject bulletClone = Instantiate(bullet, spawnPoint.position, spawnPoint.rotation);
+            ammo--;
+            ammoT.text = "Ammo: " + ammo;
         }
-        
+        if (Keyboard.current.rKey.wasPressedThisFrame)
+        {
+            ammo = 0;
+            ammoT.text = "Reloading...";
+            Invoke("reload", 3f);
+        }
+
     }
     private void FixedUpdate()
     {
@@ -56,5 +66,10 @@ public class Movement : MonoBehaviour
             jump = false;
             colided = null;
         }
+    }
+    private void reload()
+    {
+        ammo = 7;
+        ammoT.text = "Ammo: " + ammo;
     }
 }

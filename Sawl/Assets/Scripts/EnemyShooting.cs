@@ -29,7 +29,6 @@ public class EnemyShooter : MonoBehaviour
             targetPosition.y = transform.position.y;
             transform.LookAt(targetPosition);
             transform.Rotate(0, 90f, 0);
-
             agent.SetDestination(targetPosition);
         }
     }
